@@ -16,8 +16,7 @@
         background-color: #f0eee9;
         color: rgb(20, 19, 8);
         transition: all 0.3s ease;
-        
-
+    
     }
 
     body.dark {
@@ -30,16 +29,26 @@
     body.dark a {
         color: blue;
     }
-  
-    #themeToggle {
-        position:fixed;
-        top: 20px;
-        right: 20px;
-        font-size: 26px;
-        background: none;
-        border: none;
-        cursor: pointer;
+      
+      .container {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
     }
+
+/* 关键在这里 */
+    .header {
+    display: flex;
+    justify-content: space-between; /* 左右分开 */
+    align-items: center;
+    }
+
+    #themeToggle {
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    cursor: pointer;
+   }
 
     </style>
 </head>
@@ -63,6 +72,7 @@
         <li>家有贤夫，会做饭，有资源，有人脉，有钱，有社会地位。当然这些女主也有。</li>
         <li>女主是纯靠自己打拼下来的，创业后得到江山。女主超级厉害。男主非常崇拜此家主。</li>
     </ol>
+    <p>这里只放删减版本的哈哈哈哈哈哈。写都写了。当番外了。因为有高审锁。</p>
 <script>
     const button = document.getElementById("themeToggle");
     button.addEventListener("click", function(){
@@ -75,6 +85,10 @@
     });
 
 </script>
-<em><a href="file:///Users/ruixi/Desktop/cs/index.html/%E6%A2%A6%E7%A6%BB%E5%A2%A8%E4%B8%8A/%E7%AC%AC%E4%B8%80%E7%AB%A0.html" target="_blank" rel="noopener">第一章</a></em>
+
+<a href="chapter1.html">👉 下一章-出识</a>
+<a href="chapter2.html">👉 下二章-通行证</a>
+
+    
 </body>
 </html>
